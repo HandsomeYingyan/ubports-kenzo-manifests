@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="ada" fetch="https://gitlab.com/adarshkushwah/"/>
-<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="cm-14.1"  remote="ada"/>
-<project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="cm-14.1"  remote="ada" />
+<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="cm-14.1"  remote="los"/>
+<project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="cm-14.1"  remote="los" />
 <project path="kernel/xiaomi/msm8956" name="escrima_kernel_xiaomi_msm8956" revision="hybris-14.1"  remote="ada" />
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="nougat" clone-depth="1"  remote="ada" />
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="master" clone-depth="1"  remote="ada" />
 </manifest>
